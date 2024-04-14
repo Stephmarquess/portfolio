@@ -1,0 +1,11 @@
+
+.projetos {
+background-color: #4f535a;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(235, 233, 233, 0.1);
+color: white;
+}
+
+.card a {
+    color:red;
+}
