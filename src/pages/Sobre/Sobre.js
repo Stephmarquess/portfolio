@@ -1,11 +1,6 @@
 import React from 'react';
 import '../../pages/Home/home.css';
 import '../../pages/Sobre/sobre.css';
-import js from '../../assets/icons/js.png';
-import boot from '../../assets/icons/bootstrap.webp';
-import html from '../../assets/icons/html.png';
-import css from '../../assets/icons/css-3.png';
-import java from '../../assets/icons/java.png';
 
 const Sobre = () => {
   return (
