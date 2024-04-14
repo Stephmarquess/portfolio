@@ -12,7 +12,7 @@
 }
 
 .card-pilares {
-    background-color: #4f535a;
+    background-color:#b14141;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(235, 233, 233, 0.1);
@@ -39,3 +39,11 @@
         opacity: 1; 
     }
 }
+
+@media (max-width: 766px) {
+    .cards-pilares {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
