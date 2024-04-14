@@ -6,7 +6,7 @@ const Card = ({img, nomeProjeto, descricao, urlRepositorio, urlDeploy}) => {
     return (
         <div className="card projetos mb-3" style={{ maxWidth: 900 }}>
         <div className="row g-0">
-          <div className="col">
+          <div className="col p-3">
             <img src={img} className="img-fluid rounded-start" alt={nomeProjeto} />
           </div>
           <div className="col">
