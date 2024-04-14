@@ -9,6 +9,11 @@ body {
   color: white;
 }
 
+.efeito {
+  opacity: 0;
+  animation: efeito 0.5s forwards;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

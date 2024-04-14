@@ -7,6 +7,10 @@
     margin-bottom: 50px ;
 }
 
+#habilidades-prof p {
+    text-align: justify;
+}
+
 .card-pilares {
     background-color: #4f535a;
     padding: 20px;
@@ -15,10 +19,23 @@
     max-height: 80px;
     transition: box-shadow 0.3s ease;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    transition: box-shadow 0.3s ease-in-out;
 }
 
 .card-pilares:hover {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
     cursor: pointer;
   }
+
+.efeito {
+    opacity: 0;
+    animation: efeito 1.5s forwards;
+}
+
+@keyframes efeito  {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1; 
+    }
+}
