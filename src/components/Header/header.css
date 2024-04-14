@@ -1,0 +1,14 @@
+
+  .logo {
+    height: 90px;
+    border-radius: 60%;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #ff5757;
+  }
