@@ -16,21 +16,21 @@ import spring from '../../assets/icons/spring.png';
 
 const Home = () => {
   return (
-    <div className="App mt-5 efeito p-3">
-      <section className='d-flex apresentacao row'>
+    <main className="App mt-5 efeito p-3">
+      <section className='infos apresentacao row '>
         <div id='apresentacao-texto' className='col'>
         <div className='col'>
           <p className='fs-2'>Olá! Sou <strong style={{ color: "#ff5757" }}>Stéfany Marques.</strong></p>
 
           Programadora Full Stack
           <div>
-        <div id='icons-contato' className='mt-5 d-flex gap-3 justify-content-center'>
+        <div id='icons-contato' className='mt-5 d-flex gap-3 justify-content-center col'>
         <a href='mailto:smouramkt@gmail.com'><img src={email} className='icons-contato' /></a>
         <a href='https://www.linkedin.com/in/st%C3%A9fany-marques/' target='_blank'><img src={linkedin}  className='icons-contato' /></a>
         <a href='https://github.com/Stephmarquess' target='_blank' ><img src={gitHub}  className='icons-contato' /></a>
         </div>
         </div>
-        <div className="grid-container mt-5">          
+        <div className="grid-container mt-5 col">          
             <div className="card-habilidades"><img src={html} /></div>
             <div className="card-habilidades"><img src={css} /></div>
             <div className="card-habilidades"><img src={boot} className='h-75' /></div>
@@ -48,7 +48,7 @@ const Home = () => {
         </div>
 
       </section>
-    </div>
+    </main>
   );
 }
 

@@ -4,6 +4,10 @@
     margin: auto;
 }
 
+.infos {
+  display: flex;
+}
+
 #apresentacao-texto {
     display: flex;    
     align-items: center;
@@ -41,4 +45,26 @@
   }
 
 
-  
+  @media (max-width: 767px) {
+    #img-avatar {
+      margin-top: 30px;
+    }
+  }
+
+
+  @media (max-width: 991px) {
+    .infos {
+      display: flex;
+      flex-direction: column;
+    }
+    #img-avatar {
+      margin-top: 30px;
+    }
+  }
+
+  @media (max-width: 766px) {
+    .cards-pilares {
+      display: flex;
+      flex-direction: column;
+    }
+  }

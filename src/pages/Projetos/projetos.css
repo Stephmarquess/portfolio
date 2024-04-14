@@ -9,3 +9,11 @@ color: white;
 .card a {
     color:red;
 }
+
+@media (max-width: 767px) {
+    .projetos  {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
