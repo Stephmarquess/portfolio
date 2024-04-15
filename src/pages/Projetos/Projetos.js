@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../pages/Projetos/projetos.css';
 import Card from '../../components/Card/Card';
 import img1 from '../../assets/img/gotourViagens.png';
 import img2 from '../../assets/img/meuPlano.png';
@@ -13,8 +14,8 @@ const Projetos = () => {
         <div className='mt-3 d-flex flex-column align-items-center efeito p-3'>
             <strong><p className='fs-2 text-center' style={{ color: "#ff5757" }}>Projetos</p></strong>
             <div id='botoes-carousel' className='d-flex gap-4 mt-5'>
-                <button className='botao-carousel btn btn-danger' data-bs-target="#cards-projetos" data-bs-slide-to="0" > 1 </button>
-                <button className='botao-carousel btn btn-danger' data-bs-target="#cards-projetos" data-bs-slide-to="1" > 2 </button>                
+                <button className='botao-carousel btn btn-light' data-bs-target="#cards-projetos" data-bs-slide-to="0" > 1 </button>
+                <button className='botao-carousel btn btn-light' data-bs-target="#cards-projetos" data-bs-slide-to="1" > 2 </button>                
                 </div>
             <div id="cards-projetos" className="carousel slide">
                 <div className="carousel-inner">
@@ -71,8 +72,8 @@ const Projetos = () => {
             </div>
 
             <div id='botoes-carousel' className='d-flex gap-4'>
-                <button className='botao-carousel btn btn-danger' data-bs-target="#cards-projetos" data-bs-slide-to="0" > 1 </button>
-                <button className='botao-carousel btn btn-danger' data-bs-target="#cards-projetos" data-bs-slide-to="1" > 2 </button>                
+                <button className='botao-carousel btn btn-light' data-bs-target="#cards-projetos" data-bs-slide-to="0" > 1 </button>
+                <button className='botao-carousel btn btn-light' data-bs-target="#cards-projetos" data-bs-slide-to="1" > 2 </button>                
                 </div>
 
 
