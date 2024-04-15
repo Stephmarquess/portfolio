@@ -1,7 +1,7 @@
 #img-avatar {
-    border-radius: 60%;
-    max-height: 300px;
-    margin: auto;
+  border-radius: 60%;
+  max-height: 300px;
+  margin: auto;
 }
 
 .infos {
@@ -9,13 +9,13 @@
 }
 
 #apresentacao-texto {
-    display: flex;    
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .img-apresentacao {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .icons-contato {
@@ -24,47 +24,49 @@
 
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-gap: 15px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .card-habilidades {
-    background-color: #4f535a;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(235, 233, 233, 0.1);
-    max-height: 80px;
-    transition: box-shadow 0.3s ease;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .card-habilidades:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
-  }
+.card-habilidades {
+  background-color: #4f535a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(235, 233, 233, 0.1);
+  max-height: 80px;
+  transition: box-shadow 0.3s ease;
+}
 
-
-  @media (max-width: 767px) {
-    #img-avatar {
-      margin-top: 30px;
-    }
-  }
+.card-habilidades:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Aumenta a sombra ao passar o mouse */
+}
 
 
-  @media (max-width: 991px) {
-    .infos {
-      display: flex;
-      flex-direction: column;
-    }
-    #img-avatar {
-      margin-top: 30px;
-    }
+@media (max-width: 767px) {
+  #img-avatar {
+    margin-top: 30px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .infos {
+    display: flex;
+    flex-direction: column;
   }
 
-  @media (max-width: 766px) {
-    .cards-pilares {
-      display: flex;
-      flex-direction: column;
-    }
+  #img-avatar {
+    margin-top: 30px;
   }
+}
+
+@media (max-width: 766px) {
+  .cards-pilares {
+    display: flex;
+    flex-direction: column;
+  }
+}

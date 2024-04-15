@@ -1,14 +1,21 @@
+.logo {
+  height: 90px;
+  border-radius: 60%;
+}
 
-  .logo {
-    height: 90px;
-    border-radius: 60%;
-  }
+a {
+  color: white;
+  text-decoration: none;
+}
 
-  a {
-    color: white;
-    text-decoration: none;
-  }
+a:hover {
+  color: #ff5757;
+}
 
-  a:hover {
-    color: #ff5757;
-  }
+#links {
+  justify-content: end;
+}
+
+#links a {
+  margin-right: 30px;
+}
