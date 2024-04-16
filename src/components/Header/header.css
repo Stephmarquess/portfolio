@@ -19,3 +19,14 @@ a:hover {
 #links a {
   margin-right: 30px;
 }
+
+@media (max-width: 991px) {
+  .menu {
+    display:flex;
+    align-items: center;
+    margin-left: 6vh;
+    gap: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);     
+    
+  }
+}

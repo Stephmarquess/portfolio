@@ -4,7 +4,7 @@ import '../../pages/Sobre/sobre.css';
 
 const Sobre = () => {
   return (
-    <section id="habilidades-prof" className='mt-5 efeito p-3'>
+    <section id="habilidades-prof" className='mt-2 efeito p-3'>
       <strong><p className='fs-2 text-center' style={{ color: "#ff5757" }}>Sobre mim</p></strong>
       <p> Sou Stéfany Marques, tenho 27 anos e moro em Juazeiro do Norte - Ceará, Brasil. Sou psicóloga formada pelo Centro Universitário Dr. Leão Sampaio - UNILEÃO e Programadora Full Stack formada pela RECODE.<br />
         Desde pequena fui introduzida aos vídeos games e computação e desde então me tornei apaixonada por tecnologia. Amante da natureza, música, livros e desafios. Adoro estar sempre estudando e descobrindo

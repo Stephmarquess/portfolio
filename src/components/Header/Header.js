@@ -15,10 +15,10 @@ const Header = () => {
       <span className="navbar-toggler-icon"></span>
       </button>    
     <div className="collapse navbar-collapse float-end" id="links">    
-    <div className="navbar-nav ml-auto mb-2 mb-lg-0 text-center">    
-    <a><Link to="/">Home</Link></a>
-    <a><Link to="Sobre">Sobre Mim</Link></a>
-    <a><Link to="Projetos">Projetos</Link></a>
+    <div className="navbar-nav ml-auto mb-2 mb-lg-0 menu">    
+    <Link to="/">Home</Link>
+    <Link to="Sobre">Sobre Mim</Link>
+    <Link to="Projetos">Projetos</Link>
     </div>
     </div>
     </div>
