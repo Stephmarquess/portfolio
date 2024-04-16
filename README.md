@@ -6,7 +6,7 @@ Portfolio simples desenvolvido em React para publicações de projetos online.
     
 <h2>Status do Projeto</h2>
 
-<li> Em fase de deploy (14/02/2024) </li> 
+<li> Primeira versão lançada para deploy (16/04/2024) -  <a href="https://stefanymarques.netlify.app/"> Link do Deploy </a> </li> 
 
 <h2> Implementações realizadas nesta versão </h2>
 <ul>
