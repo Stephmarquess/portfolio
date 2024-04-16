@@ -6,6 +6,8 @@ import img2 from '../../assets/img/meuPlano.png';
 import img3 from '../../assets/img/portfolio.png';
 import img4 from '../../assets/img/connecJob.png';
 import img5 from '../../assets/img/margaretBiografia.png';
+import img6 from '../../assets/img/goTour-MVC.png';
+import img7 from '../../assets/img/goTourAPI.png';
 
 
 const Projetos = () => {
@@ -26,8 +28,7 @@ const Projetos = () => {
                             <Card img={img3}
                                 nomeProjeto='Portfolio - Stéfany Marques '
                                 descricao='Desenvolvido com React, CSS, Bootstrap e JavaScript'
-                                urlRepositorio='https://github.com/Stephmarquess/Plano-de-aula-Professor'
-                                urlDeploy='https://github.com/Stephmarquess/portfolio' />
+                                urlRepositorio='https://github.com/Stephmarquess/Plano-de-aula-Professor' />
 
                             <Card img={img2}
                                 nomeProjeto='Meu Plano de Ensino'
@@ -40,23 +41,38 @@ const Projetos = () => {
 
                             <Card img={img4}
                                 nomeProjeto='ConectJob - Plataforma de Capacitação e Vagas de Emprego'
-                                descricao='Modelado em MVC com Java, utilizando Spring Boot, MySQL, HTML, CSS e Bootstrap. É uma plataforma de capacitação
+                                descricao='Projeto em Squad modelado em MVC com Java, utilizando Spring Boot, MySQL, HTML, CSS e Bootstrap. É uma plataforma de capacitação
     online para estudantes de baixa renda e acesso a oportunidades de emprego'
                                 urlRepositorio='https://github.com/Squad12Rcd/Terceira-Entrega'
                                 urlDeploy='https://connectjob-rcd.onrender.com/'
                             />
 
-                            <Card img={img1}
-                                nomeProjeto='GoTour - Agência de Viagens '
-                                descricao='Desenvolvido em HTML, CSS, Bootstrap e JavaScript. Site de agência de viagens 
-    com seções de "Destinos" e "Promoções"'
-                                urlRepositorio='https://github.com/Stephmarquess/Agencia-de-viagens'
-                                urlDeploy='https://gotourviagens.netlify.app/'
+                            <Card img={img6}
+                                nomeProjeto='Agência de Viagens - CRUD MVC'
+                                descricao='CRUD modelado em MVC desenvolvido com Java Spring Boot, MySQL, HTML, CSS, Bootstrap e JavaScript'
+                                urlRepositorio='https://github.com/Stephmarquess/Agencia-de-viagens-MVC'                                
                             />
+
+
+                            <Card img={img7}
+                                nomeProjeto='Agência de Viagens - API'
+                                descricao='API desenvolvida com JavaSpring Boot e Swagger.'
+                                urlRepositorio='https://github.com/Stephmarquess/Agencia-de-viagens-MVC'                                
+                            />
+ 
                         </div>
 
                     </div>
                     <div className="carousel-item mt-3">
+
+                    <Card img={img1}
+                                nomeProjeto='GoTour - Agência de Viagens '
+                                descricao='Desenvolvido em HTML, CSS, Bootstrap e JavaScript. Site de agência de viagens 
+    com seções de "Destinos" e "Promoções"'
+                                urlRepositorio='https://github.com/Stephmarquess/Agencia-de-viagens-API'
+                                urlDeploy='https://gotourviagens.netlify.app/'
+                            />
+
                     <Card img={img5}
                                 nomeProjeto='Site Biográfico - Margaret Hamilton'
                                 descricao='Primeiro projeto Front-End desenvolvido em HTML, CSS, Bootstrap e JavaScript. Site biográfico sobre a 
@@ -64,9 +80,6 @@ const Projetos = () => {
                                 urlRepositorio='https://github.com/Stephmarquess/Womakers'
                                 urlDeploy='https://stephmarquess.github.io/Womakers/'
                             />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..." />
                     </div>
                 </div>
             </div>
