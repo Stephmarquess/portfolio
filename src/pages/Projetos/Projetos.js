@@ -13,7 +13,7 @@ import img7 from '../../assets/img/goTourAPI.png';
 const Projetos = () => {
 
     return (
-        <div className='mt-3 d-flex flex-column align-items-center efeito p-3'>
+        <div className='mt-2 d-flex flex-column align-items-center efeito p-3'>
             <strong><p className='fs-2 text-center' style={{ color: "#ff5757" }}>Projetos</p></strong>
             <div id='botoes-carousel' className='d-flex gap-4 mt-5'>
                 <button className='botao-carousel btn btn-light' data-bs-target="#cards-projetos" data-bs-slide-to="0" > 1 </button>
