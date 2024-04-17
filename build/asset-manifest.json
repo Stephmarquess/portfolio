@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.36fb4671.css",
-    "main.js": "/static/js/main.ffe18959.js",
+    "main.css": "/static/css/main.c2777e2e.css",
+    "main.js": "/static/js/main.1c326b12.js",
     "static/media/gotourViagens.png": "/static/media/gotourViagens.5c3e0bc21785420090e4.png",
     "static/media/margaretBiografia.png": "/static/media/margaretBiografia.ccb76fcc8c95234dbb9f.png",
     "static/media/portfolio.png": "/static/media/portfolio.00f95177cddd1045b629.png",
@@ -13,11 +13,11 @@
     "static/media/logoSM.png": "/static/media/logoSM.fed79aeb28db48661d8c.png",
     "static/media/bootstrap-5-logo-icon.svg": "/static/media/bootstrap-5-logo-icon.bb5d7fd6ad99f573329d8b4f60fa02c3.svg",
     "index.html": "/index.html",
-    "main.36fb4671.css.map": "/static/css/main.36fb4671.css.map",
-    "main.ffe18959.js.map": "/static/js/main.ffe18959.js.map"
+    "main.c2777e2e.css.map": "/static/css/main.c2777e2e.css.map",
+    "main.1c326b12.js.map": "/static/js/main.1c326b12.js.map"
   },
   "entrypoints": [
-    "static/css/main.36fb4671.css",
-    "static/js/main.ffe18959.js"
+    "static/css/main.c2777e2e.css",
+    "static/js/main.1c326b12.js"
   ]
 }
