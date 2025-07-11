@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../pages/Projetos/projetos.css';
-import Card from '../../components/Card/Card';
+import './projects.css';
+import Card from '../../components/Card/Projects/Card';
 import img1 from '../../assets/img/gotourViagens.png';
 import img2 from '../../assets/img/meuPlano.png';
 import img3 from '../../assets/img/portfolio.png';
