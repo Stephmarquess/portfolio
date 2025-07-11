@@ -1,7 +1,7 @@
 import {Outlet} from 'react-router-dom';
-import '../../portfolio/src/assets/css/App.css';
-import Footer from '../../portfolio/src/components/Footer/Footer';
-import Header from '../../portfolio/src/components/Header/Header';
+import './assets/css/App.css';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 
 const App = () => {
   return (
