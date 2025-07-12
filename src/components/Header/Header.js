@@ -17,8 +17,8 @@ const Header = () => {
     <div className="collapse navbar-collapse float-end" id="links">    
     <div className="navbar-nav ml-auto mb-2 mb-lg-0 menu">    
     <Link to="/">Home</Link>
-    <Link to="Sobre">Sobre Mim</Link>
-    <Link to="Projetos">Projetos</Link>
+    <Link to="contact">Contato</Link>
+    <Link to="projects">Projetos</Link>
     </div>
     </div>
     </div>
