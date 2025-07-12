@@ -18,7 +18,7 @@ const Home = () => {
             <div>
               <div id='icons-contato' className='mt-5 d-flex gap-3 justify-content-center col'>
                 <a href='mailto:smouramkt@gmail.com'><img src={email} className='icons-contato' /></a>
-                <a href='https://www.linkedin.com/in/st%C3%A9fany-marques/' target='_blank'><img src={linkedin} className='icons-contato' /></a>
+                <a href='https://www.linkedin.com/in/stefany-mmarques' target='_blank'><img src={linkedin} className='icons-contato' /></a>
                 <a href='https://github.com/Stephmarquess' target='_blank' ><img src={gitHub} className='icons-contato' /></a>
               </div>
             </div>

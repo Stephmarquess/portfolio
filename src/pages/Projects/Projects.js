@@ -15,6 +15,12 @@ const Projetos = () => {
     return (
         <div className='mt-2 d-flex flex-column align-items-center efeito p-3'>
             <strong><p className='fs-2 text-center' style={{ color: "#ff5757" }}>Projetos</p></strong>
+            
+            <div className="alert alert-info text-center mt-3 mb-4" role="alert">
+                <i className="bi bi-info-circle me-2"></i>
+                Os repositórios estão em processo de refatoração
+            </div>
+            
             <div id='botoes-carousel' className='d-flex gap-4 mt-5'>
                 <button className='botao-carousel btn btn-light' data-bs-target="#cards-projetos" data-bs-slide-to="0" > 1 </button>
                 <button className='botao-carousel btn btn-light' data-bs-target="#cards-projetos" data-bs-slide-to="1" > 2 </button>                
