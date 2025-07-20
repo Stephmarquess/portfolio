@@ -1,48 +1,41 @@
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
-class EmailService {
+export class EmailService {
   constructor() {
-    this.publicKey =
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+    this.publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-    this.serviceId =
-      import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    this.serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 
-    this.templateId =
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    this.templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 
-    this.toEmail =
-      import.meta.env.VITE_EMAILJS_TO_EMAIL;
+    this.toEmail = import.meta.env.VITE_EMAILJS_TO_EMAIL;
 
     this.initialized = false;
   }
 
-async initialize() {
-  if (this.initialized) return true;
-
-  if (!this.publicKey) {
-    console.error('PUBLIC KEY NAO DISPONIVEL');
-    return false;
-  }
-
-  try {
-    if (typeof window !== 'undefined') {
-      emailjs.init(this.publicKey);
-      this.initialized = true;
-      return true;
+  async initialize() {
+    if (!this.publicKey) {
+      console.error("PUBLIC KEY NAO DISPONIVEL");
+      return false;
     }
-  } catch (error) {
-    console.error('Erro ao inicializar o client de e-mail:', error);
-    return false;
-  }
-}
 
+    try {
+      if (typeof window !== "undefined") {
+        emailjs.init(this.publicKey);
+        this.initialized = true;
+        return true;
+      }
+    } catch (error) {
+      console.error("Erro ao inicializar o client de e-mail:", error);
+      return false;
+    }
+  }
 
   async sendEmail(formData) {
     if (!this.initialized) {
       const initialized = await this.initialize();
       if (!initialized) {
-        throw new Error('Client de e-mail não pôde ser inicializado');
+        throw new Error("Client de e-mail não pôde ser inicializado");
       }
     }
 
@@ -62,12 +55,12 @@ async initialize() {
       );
 
       if (result.status === 200) {
-        return { success: true, message: 'Email enviado com sucesso' };
+        return { success: true, message: "Email enviado com sucesso" };
       } else {
-        return { success: false, message: 'Erro no envio do email' };
+        throw new Error(`Erro ao enviar email: ${result.text}`);
       }
     } catch (error) {
-      throw new Error('Erro ao enviar email: ' + error.message);
+      throw new Error("Erro ao enviar email: " + error.message);
     }
   }
 }
