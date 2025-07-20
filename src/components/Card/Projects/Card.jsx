@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../pages/Projects/projects.css';
-import {Button, BtnDeploy} from '../../Button/Button.js';
+import {Button, BtnDeploy} from '../../Button/Button.jsx';
 
 const Card = ({img, nomeProjeto, descricao, urlRepositorio, urlDeploy}) => {
     return (

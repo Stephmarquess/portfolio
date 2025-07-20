@@ -1,14 +1,12 @@
-import React from 'react';
 import './projects.css';
-import Card from '../../components/Card/Projects/Card';
-import img1 from '../../assets/img/gotourViagens.png';
-import img2 from '../../assets/img/meuPlano.png';
-import img3 from '../../assets/img/portfolio.png';
-import img4 from '../../assets/img/connecJob.png';
-import img5 from '../../assets/img/margaretBiografia.png';
-import img6 from '../../assets/img/goTour-MVC.png';
-import img7 from '../../assets/img/goTourAPI.png';
-
+import Card from '../../components/Card/Projects/Card.jsx';
+import img1 from '/img/gotourViagens.png';
+import img2 from '/img/meuPlano.png';
+import img3 from '/img/portfolio.png';
+import img4 from '/img/connecJob.png';
+import img5 from '/img/margaretBiografia.png';
+import img6 from '/img/goTour-MVC.png';
+import img7 from '/img/goTourAPI.png';
 
 const Projetos = () => {
 
