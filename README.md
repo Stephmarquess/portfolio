@@ -66,9 +66,12 @@ npm run dev
 
 ## 🌐 Deploy
 
-**Status do Projeto**: ✅ Primeira versão lançada para deploy (16/04/2024)
-✅ Refatoração e adição de serviço de e-mail para formulário de contato (11/07/2025)
-✅ Atualização para o React 19/Vite (19/07/2025)
+**Status do Projeto**: 
+- ✅ Primeira versão lançada para deploy (16/04/2024)
+- ✅ Refatoração e adição de serviço de e-mail para formulário de contato (11/07/2025)
+- ✅ Atualização para o React 19/Vite (19/07/2025)
+- ✅ Adição de teste unitário para service de formulário de contato (20/07/2025)
+
 
 **Link do Deploy**: [https://stefanymarques.netlify.app/](https://stefanymarques.netlify.app/)
 
