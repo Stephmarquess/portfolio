@@ -1,10 +1,10 @@
-import '../../assets/css/App.css';
-import '../../pages/Home/home.css';
-import avatar from '../../assets/img/avatar.jpeg';
+import '../../App.css';
+import '../Home/home.css';
+import avatar from '/img/avatar.jpeg';
 import linkedin from '../../assets/icons/linkedin-color.png';
 import gitHub from '../../assets/icons/gitHub.png';
 import email from '../../assets/icons/gmail.png';
-import SkillsCard from '../../components/Card/Stacks/StacksCard';
+import SkillsCard from '../../components/Card/Stacks/StacksCard.jsx';
 
 const Home = () => {
   return (

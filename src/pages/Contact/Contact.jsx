@@ -1,16 +1,13 @@
 import React, { useEffect } from 'react';
 import emailService from '../../services/emailService';
-import ContactForm from '../../components/ContactForm/ContactForm';
+import ContactForm from '../../components/ContactForm/ContactForm.jsx';
 
 const Contact = () => {
 
   useEffect(() => {
     const initializeEmailService = async () => {
       try {
-        const initialized = await emailService.initialize();
-        if (initialized) {
-          console.log('Serviço de email inicializado com sucesso');
-        }
+        await emailService.initialize();
       } catch (error) {
         console.error('Erro ao inicializar serviço de email:', error);
       }

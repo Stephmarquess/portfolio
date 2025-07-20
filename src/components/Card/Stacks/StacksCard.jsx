@@ -7,6 +7,9 @@ import react from '../../../assets/icons/react.png';
 import mysql from '../../../assets/icons/mysql.png';
 import git from '../../../assets/icons/git.png';
 import spring from '../../../assets/icons/spring.png';
+import node from '../../../assets/icons/node.png';
+import csharp from '../../../assets/icons/csharp.png';
+import postgres from '../../../assets/icons/PostgresSQL.png';
 
 const SkillsCard = () => {
   const skills = [
@@ -16,9 +19,12 @@ const SkillsCard = () => {
     { icon: js, name: 'JavaScript' },
     { icon: react, name: 'React' },
     { icon: git, name: 'Git' },
+    { icon: node, name: 'NodeJs', className: 'h-75' },
+    { icon: csharp, name: 'C#', className: 'h-75' },
     { icon: java, name: 'Java' },
     { icon: spring, name: 'Spring' },
-    { icon: mysql, name: 'MySQL' }
+    { icon: mysql, name: 'MySQL' },
+    { icon: postgres, name: 'Postgres', className: 'h-75' }
   ];
 
   return (
