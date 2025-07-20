@@ -40,7 +40,7 @@ Portfolio pessoal desenvolvido em React para exibir projetos e habilidades técn
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" width="40" height="40" />
 </div>
 
-- **React 18+** - Biblioteca JavaScript para construção de interfaces
+- **React 19/Vite** - Biblioteca JavaScript para construção de interfaces
 - **CSS3** - Estilização e layout responsivo
 - **Bootstrap 5.3** - Framework CSS para componentes e grid system
 
@@ -59,7 +59,7 @@ npm install
 
 3. Execute o projeto:
 ```bash
-npm start
+npm run dev
 ```
 
 4. Acesse `http://localhost:3000` no seu navegador
@@ -67,6 +67,8 @@ npm start
 ## 🌐 Deploy
 
 **Status do Projeto**: ✅ Primeira versão lançada para deploy (16/04/2024)
+✅ Refatoração e adição de serviço de e-mail para formulário de contato (11/07/2025)
+✅ Atualização para o React 19/Vite (19/07/2025)
 
 **Link do Deploy**: [https://stefanymarques.netlify.app/](https://stefanymarques.netlify.app/)
 
