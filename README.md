@@ -1,7 +1,7 @@
 # Portfolio - Stéfany Marques
 
 [![New](https://img.shields.io/badge/New-11--07--2025-brightgreen)](https://github.com/yourusername/portfolio)
-[![React](https://img.shields.io/badge/React-18.0+-blue.svg)](https://reactjs.org/)
+[![React](https://img.shields.io/badge/React-19.0+-blue.svg)](https://reactjs.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple.svg)](https://getbootstrap.com/)
 [![Netlify](https://img.shields.io/badge/Deploy-Netlify-00C7B7.svg)](https://stefanymarques.netlify.app/)
 
